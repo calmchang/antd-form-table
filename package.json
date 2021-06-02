@@ -1,0 +1,70 @@
+{
+  "name": "antd-form-table",
+  "version": "0.0.1",
+  "scripts": {
+    "webpack": "webpack --config webpack.config.js",
+    "test": "webpack-dev-server --config test.config.js",
+    "build": "rollup --config rollup.config.js"
+  },
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/plugin-proposal-decorators": "7.8.3",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "7.8.3",
+    "@babel/plugin-proposal-private-methods": "7.8.3",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/plugin-transform-react-jsx": "^7.14.3",
+    "@babel/plugin-transform-runtime": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "@babel/preset-react": "7.12.13",
+    "@babel/runtime-corejs3": "7.13.10",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "antd": "4.6.5",
+    "babel-loader": "8.2.2",
+    "browser-sync": "2.26.3",
+    "css-loader": "5.1.3",
+    "html-webpack-plugin": "3.2.0",
+    "js-uuid": "0.0.6",
+    "less-loader": "8.0.0",
+    "postcss-loader": "5.2.0",
+    "react": "16.13.0",
+    "react-dom": "16.13.0",
+    "rollup": "^2.50.5",
+    "rollup-plugin-jsx": "^1.0.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass-loader": "7.0.0",
+    "style-loader": "2.0.0",
+    "webpack": "4.46.0",
+    "webpack-bundle-analyzer": "4.4.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.2"
+  },
+  "files": [
+    "lib",
+    "src",
+    "test"
+  ],
+  "keywords": [
+    "react",
+    "form",
+    "rc-form",
+    "antd",
+    "table",
+    "react-component",
+    "react-form"
+  ],
+  "description": "antd4x下用于Form组件下的Table组件，方便管理Table内的FormItem",
+  "engines": {
+    "node": ">=10.15.x"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calmchang/antd-form-table"
+  }
+}
