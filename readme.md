@@ -1,10 +1,8 @@
 
-![antd](https://img.shields.io/badge/ant--desigin-2.x~3.x-blue)
-![node](https://img.shields.io/badge/node-%3E%3D8-green)
-![npm](https://img.shields.io/badge/npm-%3E%3D6.14.5-orange)
+![antd](https://img.shields.io/badge/ant--desigin-4.x-blue)
 
 ### 开发者环境
-node:10.15.0
+node:10.15.0  
 npm:6.14.5
 ### 组件作用  
 antd-form-table用于解决在antd4.x下，当使用Form表单处理数据遇上Table时的增删查改操作  
