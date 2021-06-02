@@ -7,7 +7,8 @@
 node:10.15.0
 npm:6.14.5
 ### 组件作用  
-antd-form-table用于解决在antd4.x下，当使用Form表单处理数据遇上Table时的增删查改操作
+antd-form-table用于解决在antd4.x下，当使用Form表单处理数据遇上Table时的增删查改操作  
+另外如果你需要支持`antd2.x和antd3.x`版本的可以[点击这里获取](https://www.npmjs.com/package/rc-form-table)
 
 ### 预览图
 ![review.jpg](http://img.vuedata.cn/rc-form-table-review.gif)
@@ -155,4 +156,3 @@ onReset|重置表单内数据|(arr?:object[])=>void|-
 
 
 ### 更新日志
-* v1.1.0:增加了是否在无数据的情况下，自动添加一行空数据的属性
