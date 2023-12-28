@@ -16,6 +16,9 @@ const TableFormItem =(props,ref)=> {
         return item;
       });
     }
+    const {setFieldsValue } = form;
+    setFieldsValue({[formItemName]:[]})
+    setFieldsValue({[formItemName]:[...tempInitValue]});
     return tempInitValue
   }
   const [value,setValue] = useState(()=>(getInitalValue(props.initialValue)));

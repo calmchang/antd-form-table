@@ -6,6 +6,7 @@ import jsx from 'rollup-plugin-jsx'
 import {terser} from 'rollup-plugin-terser';
 
 
+// node 10.15.0
 const projectRootDir = path.resolve(__dirname,'src');
 console.warn('===============projectRootDir============',projectRootDir)
 
